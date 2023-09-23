@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Play&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.Upper-container {
+    background-color: rgb(255, 235, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0px 15px 10px rgba(54, 54, 54, 0.637);
+}
+
+.Upper-container .nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 120px;
+
+
+}
+
+.Upper-container .nav-bar ul li {
+    display: block;
+    padding: 10px 40px 10px 10px;
+
+    font-family: 'Play', sans-serif;
+    font-weight: 200px;
+
+    color: chocolate;
+
+}
+
+
+
+.Upper-container .nav-bar {}
+
+.Upper-container .logo h1 {
+    margin: 0;
+    padding-left: 28px;
+    letter-spacing: 0.2rem;
+    font-family: 'Play', sans-serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+
+    color: rgb(255, 113, 12);
+}
+
+.Upper-container .logo h1::first-letter {
+    font-size: 45px;
+    background-color: rgb(255, 113, 12);
+    color: white;
+    border-radius: 50%;
+    padding: 0px 6px 0px 8px;
+}
+
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%), url('alonso-reyes-haZNHEV2WXQ-unsplash.jpg');
+
+}
+
+.center-container .form {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    max-width: 700px;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+    box-shadow: 5px 5px 15px 10px rgba(54, 54, 54, 0.637);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.center-container .form .form2 {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-evenly;
+
+
+}
+
+.center-container .form .form2 .labels {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.center-container .form .form2 .labels label {
+    padding: 11px;
+
+    font-family: 'Play', sans-serif;
+    background-color: chocolate;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.center-container .form .form2 .inputs textarea {
+    border: 2px solid chocolate;
+    border-radius: 10px;
+}
+
+.center-container .form .form2 .inputs input {
+    padding: 11.5px;
+
+
+    border-radius: 10px;
+    border: 2px solid chocolate;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.center-container .form .form2 .inputs .radio {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: flex-start;
+
+    padding-top: 9px;
+
+}
+
+.center-container .form .form2 .inputs .radio label {
+    padding-right: 22px;
+    padding-left: 8px;
+}
+
+.center-container .form .form2 .inputs .radio input {
+    margin-bottom: 0;
+    padding-top: 5px;
+
+
+}
+
+
+.center-container .form .form2 .inputs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 19.8px;
+}
+
+.center-container .form #Submit {
+    color: chocolate;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px rgb(54, 54, 54);
+    padding-left: 20px;
+    border: none;
+    font-family: 'Play', sans-serif;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+footer {
+    background-color: rgb(46,
+            43,
+            43);
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .big1-row {
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+footer .big1-row .rows {
+
+    padding: 17px;
+}
+
+footer .big1-row .rows ul {
+    list-style-type: none;
+}
+
+footer .big1-row .rows ul li {
+    color: white;
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+footer .big1-row .rows ul h2 {
+
+    color: red;
+    font-family: 'Play', sans-serif;
+    padding-bottom: 10px;
+}
+
+footer .big1-row .forth-row {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .big1-row .forth-row h2 {
+    color: red;
+    font-family: 'Play', sans-serif;
+}
+
+footer .big1-row .forth-row .input-box {
+    display: flex;
+    flex-direction: row;
+    gap: 0.3px;
+    padding-top: 33px;
+}
+
+footer .big1-row .forth-row .input-box input {
+    padding: 14px;
+    border: none;
+}
+
+footer .big1-row .forth-row .input-box #submit {
+    background-color: red;
+    color: white;
+
+}
+
+footer .big1-row .forth-row .links-icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+footer .big1-row .forth-row .links-icons a {
+    padding-right: 20px;
+    font-size: 30px;
+    color: red;
+
+}
+
+footer .big2-row {}
+
+footer .big2-row .logo-name {
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer .big2-row .logo-name .logoss a {
+    font-size: 45px;
+    color: red;
+    padding-right: 15px;
+}
+
+footer .big2-row .text-logo h2 {
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-size: 29px;
+}
+
+footer .big2-row .text-logo p {
+    color: white;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: 'Play', sans-serif;
+}
+
+footer .big3-row p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Play', sans-serif;
+}
+
